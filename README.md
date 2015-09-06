@@ -1,5 +1,6 @@
-# Pharmacy Feud
-An auditorium-based implementation of the game show.
+# Pharmacy Feud #
+
+Yet another version of the Family Feud game show.
 
 
 I use this program as a "framing device" during lectures. If you watch Family Feud, you'll notice that there is actually very little time devoted to the game. Some have stated that each 1/2 hour show only has 3 minutes of actual gameplay. Similarly, I use the time between students giving answers to talk about the responses that have come up on the board and how they relate to the topic of the lecture. 
