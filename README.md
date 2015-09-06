@@ -26,6 +26,9 @@ The game board will open in another window that is sized correctly. If you load 
 * Make you aren't covering up the game board with another window
 * Make sure your browser is not blocking popup windows or blocking external content
 
+The window that opens is sized to correctly line up all the elements on the game board.   If you want make the window
+"larger", use your browser's zoom function rather than using the mouse to resize the window.
+
 
 Before playing the game, make sure that the new window has focus. That is, click somewhere on the window with your mouse to make sure that window is 'active'. 
 
