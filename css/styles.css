@@ -1,0 +1,133 @@
+
+
+body {
+	background-image:url('../img/boardbackground.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+
+.question {
+	text-align: center;
+}
+
+.totalPointsDisplay {
+	text-align: center;
+	font-family: sans-serif;
+
+}
+ 
+.points {
+	float: right;
+}
+
+
+
+
+.AnswerHidden {
+   background-color: rgba(86,118,247,1);
+   border: solid 10px rgba(255,183,0,1);
+   width: 302px;
+   height: 35px;
+   padding: 9px;
+   display: inline-block;
+   font-size: 25px;
+   line-height: 33px;
+   text-align: center;
+   color: rgba(255,255,255,1);
+   font-weight: bold;
+   font-family: sans-serif;
+}
+ 
+
+.AnswerRevealed {
+   background-color: rgba(8,0,8,1);
+   border: solid 10px rgba(250,249,247,1);
+   width: 302px;
+   height: 35px;
+   padding: 9px;
+   display: inline-block;
+   font-size: 25px;
+   line-height: 33px;
+   text-align: left;
+   color: rgba(255,255,255,1);
+   font-weight: bold;
+   font-family: "Lucida Console";
+   white-space: nowrap;
+}
+ 
+.AnswerNull {
+   background-color: rgba(219,224,62,1);
+   border: solid 10px rgba(15,11,1,1);
+   width: 302px;
+   height: 35px;
+   padding: 9px;
+   display: inline-block;
+   font-size: 25px;
+   line-height: 33px;
+   text-align: center;
+   color: rgba(255,0,204,1);
+   font-weight: bold;
+   visibility: hidden;
+}
+
+
+.questionText {
+	font-family: sans-serif;
+	font-size: 30px;
+	background-color: darkblue;
+	color:white;
+	text-align: center;
+}
+ 
+
+#Strike1 { display:none; }
+#Strike2 { display:none; }
+#Strike3 { display:none; }
+
+#Team1RingsIn { 
+	display:none; 
+	width: 50%;
+	height: 100%;
+	background-color: rgba(0,150,0,0.4);
+	color:black;
+	font-family: sans-serif;
+	font-size: 525px;
+	text-align: center;
+}
+
+#Team2RingsIn { 
+	display:none; 
+	width: 50%;
+	height: 100%;
+	background-color: rgba(0,150,0,0.4);
+	color:black;
+	font-family: sans-serif;
+	font-size: 525px;
+	text-align: center;
+}
+
+
+#QuestionTotalScoreSeparator { 
+	width: 500px;
+	height: 90px;
+ 
+	color:black;
+	font-family: sans-serif;
+	font-size: 1px;
+	text-align: center;
+ 
+}
+
+
+#TotalScoreAnswersSeparator { 
+	width: 500px;
+	height: 100px;
+ 
+	color:black;
+	font-family: sans-serif;
+	font-size: 1px;
+	text-align: center;
+ 
+}
+
