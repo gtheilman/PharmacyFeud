@@ -23,13 +23,17 @@ index.html?gameData=bore
 
 Don't include the ".js" in the URL.  Just the part of the filename before the period.
 
-The game board will open in another window that is sized correctly. If you load the page and nothing happens, 
+The game board will open in another window that doesn't have a URL bar or other distractions. If you load the page and nothing happens,
 
 * Make you aren't covering up the game board with another window
 * Make sure your browser is not blocking popup windows or blocking external content
 
-The window that opens is sized to correctly line up all the elements on the game board.   If you want make the window
-"larger", use your browser's zoom function rather than using the mouse to resize the window.
+The window that opens is sized to correctly line up all the elements on the game board.   There are a few minor
+differences between browsers.  If thing don't look entirely lined up correctly, resize the window with the mouse a
+little and see if that helps.
+
+
+If you want make the window "larger", use your browser's zoom function rather than using the mouse to resize the window.
 
 
 Before playing the game, make sure that the new window has focus. That is, click somewhere on the window with your mouse to make sure that window is 'active'. 
