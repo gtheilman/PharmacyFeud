@@ -2,11 +2,41 @@
 <html>
 <head lang="en">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/feud.js"></script>
-    <meta charset="UTF-8">
-    <title></title>
+     <meta charset="UTF-8">
+    <title>Pharmacy Feud</title>
 </head>
 <body>
-
+  This is where the instructions will be written.
 </body>
 </html>
+
+
+<script>
+    $(document).ready(function($) {
+        var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                    sURLVariables = sPageURL.split('&'),
+                    sParameterName,
+                    i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
+                }
+            }
+        };
+
+        //  For this version, the data to populate the game board is stored in JS files in the gameData folder
+        //  It wouldn't be hard to set up an api to load the JSON from an api or another source.
+
+        if (getUrlParameter('gameData')) {
+            window.open('./board.html?gameData='+ getUrlParameter('gameData'), 'feudwindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=1350,height=900');
+            // window.history.back();
+        } else {
+            alert('There needs to be a "gameData" variable in the URL to indicate what game board to load.');
+        }
+
+    })
+</script>
