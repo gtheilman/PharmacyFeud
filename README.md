@@ -2,9 +2,6 @@
 An auditorium-based implementation of the game show.
 
 
-**Pharmacy Feud**
-
-
 I use this program as a "framing device" during lectures. If you watch Family Feud, you'll notice that there is actually very little time devoted to the game. Some have stated that each 1/2 hour show only has 3 minutes of actual gameplay. Similarly, I use the time between students giving answers to talk about the responses that have come up on the board and how they relate to the topic of the lecture. 
 
 The original version I wrote for myself made an AJAX call to the server to retrieve data with which to populate the board. To simplify use by other institutions, this version looks for a file in the "gameData" folder containing the JSON needed. There are examples in the folder. To create your own questions, just create new javascript files in that folder using the ones already there as models. They are just text files and you can edit them in Notepad. Give the new question file a unique name and make sure that when you save it the extension is ".js" (not ".txt" or ".html"). 
