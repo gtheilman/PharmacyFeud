@@ -52,5 +52,7 @@ Scores from the previous round are carried over to subsequent rounds. If you nee
 
 While I do not believe my use of sound files and images infringes on anyone's copyright, if it does let me know and I will take down the offending material.
 
+If you use this software in your classroom, please send me an email so I can document it in my yearly faculty activity report.
+
 
 Gary Theilman (gtheilman@umc.edu)
