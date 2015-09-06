@@ -4,7 +4,12 @@ Yet another version of the Family Feud game show.   Runs in a web browser.
 
 [Demo](https://pharmd.umc.edu/pharmacyfeud/index.html?gameData=medicaid)
 
-I use this program as a "framing device" during lectures. If you watch Family Feud, you'll notice that there is actually very little time devoted to the game. Some have stated that each 1/2 hour show only has 3 minutes of actual gameplay. Similarly, I use the time between students giving answers to talk about the responses that have come up on the board and how they relate to the topic of the lecture. 
+I use this program as a "framing device" during lectures. If you watch Family Feud, you'll notice that there is actually
+very little time devoted to the game. Some have stated that each 1/2 hour show only has 3 minutes of actual gameplay.
+Most of the show is talking to the players and joking around.   I use the time between students giving answers to talk
+about the responses that have come up on the board and how they relate to the topic of the lecture.  And I do throw in
+the occasional joke.
+
 
 ![GameBoard](https://raw.githubusercontent.com/gtheilman/PharmacyFeud/master/media/pharmacyfeud.JPG)
 
