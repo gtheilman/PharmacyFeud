@@ -1,18 +1,95 @@
-<!DOCTYPE html>
+<style>
+    h1 {
+        font-family: sans-serif;
+    }
+    p {
+        font-family: sans-serif;
+    }
+    li {
+        font-family: sans-serif;
+    }
+</style>
+
+
 <html>
 <head lang="en">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Pharmacy Feud</title>
 </head>
 <body>
-  This is where the instructions will be written.
+<h1>Pharmacy Feud</h1>
+
+<div>
+    <p>
+        The original version I wrote for myself made an AJAX call to the server to retrieve data with which to populate
+        the
+        board. To simplify use by other institutions, this version looks for a file in the "gameData" folder containing
+        the JSON needed. There are examples in the folder.
+    </p>
+
+    <p>
+        To load the game data, use the same URL you used to open this file, but add the gameData variable to the URL
+    </p>
+
+    <p>
+        <code>http://localhost/index.html?gameData=medicaid</code>
+    </p>
+</div>
+
+<div>
+    <p>The game board will open in another window that is sized correctly. If you load the page and nothing happens,
+        make
+        you aren't covering up the game board with this window.</p>
+</div>
+<div>
+    <p>Before playing the game, make sure that the new window has focus. That is, click somewhere on the window with
+        your mouse to make sure that window is 'active'.
+</div>
+<div>
+    <p>I usually start the game by having two students stand on either side of a wireless keyboard. The SPACEBAR is
+        the button for Team 1 to ring-in. The ENTER key is the ring-in button for Team 2. Sometimes I'll put a little
+        piece of Post-It note on the keys to make it more obvious.</p>
+</div>
+<div>
+    <p>Whoever rings in first locks out the other player. So, it's not necessary to guess who clicked first.</p>
+</div>
+<div>
+    <p>From there, I control the board using a wireless keyboard I can carry around the auditorium.</p>
+</div>
+<div>
+    <ul>
+        <li>Number keys 1 - 8 reveal the answers</li>
+        <li>The 0 (zero) key cycles through the number of strikes. That is, it shows one strike the first time
+            it is pressed, two strikes the second time and three strikes the third time.
+        </li>
+        <li>The 9 key always plays a single strike. This is for incorrect answers during the face-off and when
+            a team tries to steal.
+        </li>
+        <li>At the end, click on the score of whichever team won that round. The points from up top will be
+            transferred to their score.
+        </li>
+    </ul>
+</div>
+<div>
+    <p>Scores from the previous round are carried over to subsequent rounds. If you need to clear out the team scores,
+        close all browser windows.</p>
+</div>
+
+<div>
+    <p>While I do not believe my use of sound files and images infringes on anyone's copyright, if it does let me know
+     and I will take down the offending material.</p>
+</div>
+<div>
+    <p>Gary Theilman (<a href="mailto:gtheilman@umc.edu">gtheilman@umc.edu</a>)</p>
+</div>
+
 </body>
 </html>
 
 
 <script>
-    $(document).ready(function($) {
+    $(document).ready(function ($) {
         var getUrlParameter = function getUrlParameter(sParam) {
             var sPageURL = decodeURIComponent(window.location.search.substring(1)),
                     sURLVariables = sPageURL.split('&'),
@@ -32,7 +109,7 @@
         //  It wouldn't be hard to set up an api to load the JSON from an api or another source.
 
         if (getUrlParameter('gameData')) {
-            window.open('./board.html?gameData='+ getUrlParameter('gameData'), 'feudwindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=1350,height=900');
+            window.open('./board.html?gameData=' + getUrlParameter('gameData'), 'feudwindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=1350,height=900');
             // window.history.back();
         } else {
             alert('There needs to be a "gameData" variable in the URL to indicate what game board to load.');
