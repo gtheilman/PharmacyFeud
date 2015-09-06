@@ -9,7 +9,7 @@ I use this program as a "framing device" during lectures. If you watch Family Fe
 
 The original version I wrote for myself made an AJAX call to the server to retrieve data with which to populate the board. To simplify use by other institutions, this version looks for a file in the "gameData" folder containing the JSON needed. There are examples in the folder. To create your own questions, just create new javascript files in that folder using the ones already there as models. They are just text files and you can edit them in Notepad. Give the new question file a unique name and make sure that when you save it the extension is ".js" (not ".txt" or ".html"). 
 
-To load the game data, load then index.html file and add the gameData variable to the URL, e.g.,
+To load the game data, load then index.html file and add the gameData filename to the URL, e.g.,
 
 index.html?gameData=medicaid 
 
@@ -19,6 +19,7 @@ index.html?gameData=freak
 
 index.html?gameData=bore 
 
+Don't include the ".js" in the URL.  Just the part of the filename before the period.
 
 The game board will open in another window that is sized correctly. If you load the page and nothing happens, 
 
