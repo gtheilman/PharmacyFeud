@@ -28,7 +28,9 @@ index.html?gameData=bore
 
 Don't include the ".js" in the URL.  Just the part of the filename before the period.
 
-The game board will open in another window that doesn't have a URL bar or other distractions. If you load the page and nothing happens,
+The game board will open in another window that doesn't have a menu bar or other distractions. 
+
+If you load the page and nothing happens:
 
 * Make you aren't covering up the game board with another window
 * Make sure your browser is not blocking popup windows or blocking external content
