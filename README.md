@@ -20,7 +20,7 @@ index.html?gameData=bore
 The game board will open in another window that is sized correctly. If you load the page and nothing happens, 
 
 * Make you aren't covering up the game board with another window
-* Make sure your browser is not blocking popup windows or loading external content
+* Make sure your browser is not blocking popup windows or blocking external content
 
 
 
