@@ -8,46 +8,83 @@
     li {
         font-family: sans-serif;
     }
+    a {
+        text-decoration: none;
+    }
 </style>
 
 
 <html>
 <head lang="en">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <meta charset="UTF-8">
     <title>Pharmacy Feud</title>
 </head>
 <body>
+
 <h1>Pharmacy Feud</h1>
 
 <div>
     <p>
+        I use this program as a "framing device" during lectures.   If you watch Family Feud, you'll notice that there
+        is actually very little time devoted to the game.   Some have stated that each 1/2 hour show only has
+        3 minutes of actual gameplay. Similarly, I use the time between students giving answers to talk about the
+        responses that have come up on the board and how they relate to the topic of the lecture.
+    </p>
+    <p>
         The original version I wrote for myself made an AJAX call to the server to retrieve data with which to populate
-        the
-        board. To simplify use by other institutions, this version looks for a file in the "gameData" folder containing
-        the JSON needed. There are examples in the folder.
+        the board. To simplify use by other institutions, this version looks for a file in the "gameData" folder
+        containing the JSON needed. There are examples in the folder.  To create your own questions, just create
+        new javascript files in that folder using the ones already there as models. They are just text files and
+        you can edit them in Notepad.   Give the new question file a unique name and make sure that when you save it
+        the extension is "<b>.js</b>" (not ".txt" or ".html").
     </p>
 
     <p>
-        To load the game data, use the same URL you used to open this file, but add the gameData variable to the URL
+        While this software runs in a browser, there is no need to host it on a server.   It will run very happily
+        from a local folder on your hard drive.   You <b>will need an Internet connection</b> to run the game.
+        The program needs to retrieve some javascript libraries and can't do it if there is no Internet connection.
     </p>
 
     <p>
-        <code>http://localhost/index.html?gameData=medicaid</code>
+        To load the game data, use the same URL you used to open this file, but add the gameData variable to the URL,
+        e.g.,
+    </p>
+
+    <p>
+        <code><a href='index.html?gameData=medicaid'>index.html?gameData=medicaid</a></code>
+    </p>
+    <p>
+        <code><a href='index.html?gameData=std'>index.html?gameData=std</a></code>
+    </p>
+    <p>
+        <code><a href='index.html?gameData=freak'>index.html?gameData=freak</a></code>
+    </p>
+    <p>
+        <code><a href='index.html?gameData=bore'>index.html?gameData=bore</a></code>
     </p>
 </div>
 
 <div>
     <p>The game board will open in another window that is sized correctly. If you load the page and nothing happens,
-        make
-        you aren't covering up the game board with this window.</p>
+        <li>Make you aren't covering up the game board with another window</li>
+        <li>Make sure your browser is not blocking popup windows</li>
+    </p>
 </div>
 <div>
     <p>Before playing the game, make sure that the new window has focus. That is, click somewhere on the window with
         your mouse to make sure that window is 'active'.
 </div>
 <div>
-    <p>I usually start the game by having two students stand on either side of a wireless keyboard. The SPACEBAR is
+    <p>
+        Rather than have a team of students stand up in front of the room the entire time, I usually pit "left side
+        of the room"  versus "right side of the room".
+    </p>
+</div>
+<div>
+    <p>I usually start the game by having two students from either side of the room stand next to a wireless keyboard
+        sitting on a box
+        in front of the screen at the front of the auditorium. The SPACEBAR is
         the button for Team 1 to ring-in. The ENTER key is the ring-in button for Team 2. Sometimes I'll put a little
         piece of Post-It note on the keys to make it more obvious.</p>
 </div>
@@ -55,7 +92,8 @@
     <p>Whoever rings in first locks out the other player. So, it's not necessary to guess who clicked first.</p>
 </div>
 <div>
-    <p>From there, I control the board using a wireless keyboard I can carry around the auditorium.</p>
+    <p>From there, I control the board using a small wireless keyboard I can carry around the auditorium.  I just pick
+    somewhere random and have students sitting in their seats make guesses.</p>
 </div>
 <div>
     <ul>
