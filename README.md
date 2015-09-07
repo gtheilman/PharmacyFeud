@@ -1,6 +1,6 @@
 # Pharmacy Feud #
 
-Does the world need yet another computerized version of the Family Feud game show?   Of course not.
+Does the world need yet another computerized version of the Family Feud game show?   It most certainly does not.
 
 [Demo](https://pharmd.umc.edu/pharmacyfeud/index.html?gameData=medicaid)
 
