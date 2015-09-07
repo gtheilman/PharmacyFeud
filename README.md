@@ -25,7 +25,7 @@ To use this without having to first put on a website (i.e., run it directly on a
 *  Just try opening the <code>index.html</code> file with Firefox.  It might work.   It doesn't seem to work with Chrome or Internet Explorer.
 *  Download a small webserver like [Mongoose](https://www.cesanta.com/mongoose) on your laptop.   Put it in the same directory on your hard drive as the <code>index.html</code> file.   Run Mongoose and then browse to the <code>index.html</code> file.  If you are using Mongoose, it will likely be at <code>http://localhost:8080</code>
 
-To load the game data, load then index.html file and add the gameData filename to the URL, e.g.,
+To load the game data, load the <code>index.html</code> file with the gameData filename as part of the URL, e.g.,
 
 <code>index.html?gameData=medicaid</code>
 
@@ -35,21 +35,18 @@ To load the game data, load then index.html file and add the gameData filename t
 
 <code>index.html?gameData=bore</code> 
 
-Don't include the ".js" in the URL.  Just the part of the filename before the period.
+Don't include the ".js" in the URL.  Just the part of the filename before the period (e.g, **medicaid**~~.js~~).
 
-The game board will open in another window that doesn't have a menu bar or other distractions. 
+The game board will open in *another* window without a menu bar or other distractions. 
 
 If you load the page and nothing happens:
 
 * Make you aren't covering up the game board with another window
 * Make sure your browser is not blocking popup windows or blocking external content
 
-The window that opens is sized to correctly line up all the elements on the game board.   There are a few minor
-differences between browsers.  If thing don't look entirely lined up correctly, resize the window with the mouse a
+The window that opens is sized to correctly line up all the elements on the game board.   However,there are a few minor
+differences between browsers.  If things don't look entirely lined up correctly, resize the window with the mouse a
 little and see if that helps.
-
-
-If you want make the window "larger", use your browser's zoom function rather than using the mouse to resize the window.
 
 
 Before playing the game, make sure that the new window has focus. That is, click somewhere on the window with your mouse to make sure that window is 'active'. 
@@ -73,11 +70,12 @@ From there, I control the board using a small wireless keyboard I can carry arou
 * The 9 key always plays a single strike. This is for incorrect answers during the face-off and when a team tries to steal. 
 * At the end, click on the score of whichever team won that round. The points from up top will be transferred to their score. 
 
+You could also have an assistant sit with the keyboard and control the board while you play "host".
 
 Scores from the previous round are carried over to subsequent rounds. If you need to clear out the team scores, close all browser windows.
 
 
-While I do not believe my use of sound files and images infringes on anyone's copyright, if it does let me know and I will take down the offending material.
+I did not create the sound files or the background.   While I do not believe my use of sound files and images infringes on anyone's copyright, if it does let me know and I will take down the offending material.
 
 If you use this software in your classroom, please send me an email so I can document it in my yearly faculty activity report.
 
