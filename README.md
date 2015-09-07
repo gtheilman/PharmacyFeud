@@ -16,6 +16,10 @@ the occasional joke.
 
 The original version I wrote for myself made an AJAX call to the server to retrieve data with which to populate the board. To simplify use by other institutions, this version looks for a file in the "gameData" folder containing the JSON needed. There are examples in the folder. To create your own questions, just create new javascript files in that folder using the ones already there as models. They are just text files and you can edit them in Notepad. Give the new question file a unique name and make sure that when you save it the extension is ".js" (not ".txt" or ".html"). 
 
+To use this without having to first put on a website (i.e., run it directly on a laptop), you have a few options:
+*  Just try opening the <code>index.html</code> file with Firefox.  It might work.   It doesn't seem to work with Chrome or Internet Explorer.
+*  Download a small webserver like [Mongoose](https://www.cesanta.com/mongoose) on your laptop.   Put it in the same directory on your hard drive as the <code>index.html</code> file.   Run Mongoose and then browse to the <code>index.html</code> file.  If you are using Mongoose, it will likely be at <code>http://localhost:8080</code>
+
 To load the game data, load then index.html file and add the gameData filename to the URL, e.g.,
 
 index.html?gameData=medicaid 
