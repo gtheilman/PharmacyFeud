@@ -1,20 +1,25 @@
 # Pharmacy Feud #
 
-Yet another version of the Family Feud game show.   Runs in a web browser.
+Does the world need yet another computerized version of the Family Feud game show?   Of course not.
 
 [Demo](https://pharmd.umc.edu/pharmacyfeud/index.html?gameData=medicaid)
 
-I use this program as a "framing device" during lectures. If you watch Family Feud, you'll notice that there is actually
-very little time devoted to the game. Some have stated that each 1/2 hour show only has 3 minutes of actual gameplay.
+I use this program as a "framing device" during lectures. 
+
+If you watch Family Feud, you'll notice that there is actually
+very little time devoted to the game. Some have stated that each 1/2 hour show only has [3 minutes](https://www.youtube.com/watch?v=GD8tCm3nol8) of actual gameplay.
 Most of the show is talking to the players and joking around.   I use the time between students giving answers to talk
-about the responses that have come up on the board and how they relate to the topic of the lecture.  And I do throw in
-the occasional joke.
+about the responses that have come up on the board and how they relate to the topic of the lecture.  
+
+And I do throw in the occasional joke.
 
 
 ![GameBoard](https://raw.githubusercontent.com/gtheilman/PharmacyFeud/master/media/pharmacyfeud.JPG)
 
 
 The original version I wrote for myself made an AJAX call to the server to retrieve data with which to populate the board. To simplify use by other institutions, this version looks for a file in the "gameData" folder containing the JSON needed. There are examples in the folder. To create your own questions, just create new javascript files in that folder using the ones already there as models. They are just text files and you can edit them in Notepad. Give the new question file a unique name and make sure that when you save it the extension is ".js" (not ".txt" or ".html"). 
+
+Sometimes I'll be asking questions where the numbers don't add up to 100 or the answers are simply ranked (like the Medicaid example above).   In those cases, I just put the answers in rank-order and then assign arbitrary points to each answer (with the highest ranked answer getting the most points).   Students don't seem to care.
 
 To use this without having to first put on a website (i.e., run it directly on a laptop), you have a few options:
 *  Just try opening the <code>index.html</code> file with Firefox.  It might work.   It doesn't seem to work with Chrome or Internet Explorer.
@@ -57,6 +62,8 @@ I usually start the game by having two students from either side of the room sta
 
 
 Whoever rings in first locks out the other player. So, it's not necessary to guess who clicked first.
+
+The question at the top of the screen doesn't appear until AFTER I read it out loud and someone rings-in.  
 
 
 From there, I control the board using a small wireless keyboard I can carry around the auditorium. I just pick somewhere random and have students sitting in their seats make guesses.
