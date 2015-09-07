@@ -82,7 +82,7 @@ I just pick somewhere random on the side of the auditorium that controls the boa
 
 Scores from the previous round are carried over to subsequent rounds. If you need to clear out the team scores, close all browser windows.
 
-As an additional exercise, I'll sometimes have students write new Family Feud questions using objectives from the course.
+As an additional exercise, I'll sometimes have students [write new Family Feud questions](https://github.com/gtheilman/PharmacyFeud/blob/master/media/RulesForDevelopingPharmacyFeudQuestions.docx?raw=true) using objectives from the course.
 
 
 I did not create the sound files or the background.   While I do not believe my use of sound files and images infringes on anyone's copyright, if it does let me know and I will take down the offending material.
