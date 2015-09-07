@@ -22,13 +22,13 @@ To use this without having to first put on a website (i.e., run it directly on a
 
 To load the game data, load then index.html file and add the gameData filename to the URL, e.g.,
 
-index.html?gameData=medicaid 
+<code>index.html?gameData=medicaid</code>
 
-index.html?gameData=std 
+<code>index.html?gameData=std</code> 
 
-index.html?gameData=freak 
+<code>index.html?gameData=freak</code> 
 
-index.html?gameData=bore 
+<code>index.html?gameData=bore</code> 
 
 Don't include the ".js" in the URL.  Just the part of the filename before the period.
 
